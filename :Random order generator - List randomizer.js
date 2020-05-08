@@ -1,8 +1,6 @@
 //Random order generator - List randomizer 
 //assign a random number to each person with no duplicating numbers 
 
-// var people = ["tom", "jerry", "jay", "jim", "pat", "ely"];
-
 // function assign(arr) {
 //   var maps = {};
 //   arr.forEach(function(person) {
