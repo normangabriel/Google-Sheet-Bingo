@@ -1,0 +1,16 @@
+function modifyCell(cellname,increase){
+  var range = SpreadsheetApp.getActiveSheet().getRange(cellname);
+  var toAdd = -1;
+  if (increase) {
+    toAdd = 1;
+  }
+  range.setValue(range.getValue() + toAdd);
+}
+
+function increaseLine2() {
+  modifyCell("H14",true);
+}
+
+function decreaseLine2() {
+  modifyCell ("H14",false);
+}
