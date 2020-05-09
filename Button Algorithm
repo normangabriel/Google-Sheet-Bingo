@@ -15,3 +15,170 @@ function increaseLine3() {
   modifyCell("C75",true);
 }
 
+function increaseLine4() {
+  modifyCell("K75",true);
+}
+
+function increaseLine5() {
+  modifyCell("S75",true);
+}
+
+function increaseLine6() {
+  modifyCell("AA75",true);
+}
+
+function increaseLine7() {
+  modifyCell("AI75",true);
+}
+
+function increaseLine8() {
+  modifyCell("AQ75",true);
+}
+
+function increaseLine9() {
+  modifyCell("AY75",true);
+}
+
+function increaseLine10() {
+  modifyCell("BG75",true);
+}
+
+function increaseLine11() {
+  modifyCell("BO75",true);
+}
+
+function increaseLine12() {
+  modifyCell("BW75",true);
+}
+
+function increaseLine13() {
+  modifyCell("CE75",true);
+}
+
+function increaseLine14() {
+  modifyCell("CM75",true);
+}
+
+function increaseLine15() {
+  modifyCell("C30",true);
+}
+
+function increaseLine16() {
+  modifyCell("C31",true);
+}
+
+function increaseLine17() {
+  modifyCell("C32",true);
+}
+
+function increaseLine18() {
+  modifyCell("C33",true);
+}
+
+function increaseLine19() {
+  modifyCell("C34",true);
+}
+
+function increaseLine20() {
+  modifyCell("C35",true);
+}
+
+function increaseLine21() {
+  modifyCell("C36",true);
+}
+
+function increaseLine22() {
+  modifyCell("C37",true);
+}
+
+function increaseLine23() {
+  modifyCell("C38",true);
+}
+
+function increaseLine24() {
+  modifyCell("C39",true);
+}
+
+function increaseLine25() {
+  modifyCell("C40",true);
+}
+
+function increaseLine26() {
+  modifyCell("C41",true);
+}
+
+function increaseLine27() {
+  modifyCell("D30",true);
+}
+
+function increaseLine28() {
+  modifyCell("D31",true);
+}
+
+function increaseLine29() {
+  modifyCell("D32",true);
+}
+
+function increaseLine30() {
+  modifyCell("D33",true);
+}
+
+function increaseLine31() {
+  modifyCell("D34",true);
+}
+
+function increaseLine32() {
+  modifyCell("D35",true);
+}
+
+function increaseLine33() {
+  modifyCell("D36",true);
+}
+
+function increaseLine34() {
+  modifyCell("D37",true);
+}
+
+function increaseLine35() {
+  modifyCell("D38",true);
+}
+
+function increaseLine36() {
+  modifyCell("D39",true);
+}
+
+function increaseLine37() {
+  modifyCell("D40",true);
+}
+
+function increaseLine38() {
+  modifyCell("D41",true);
+}
+
+function decreaseLine2() {
+  modifyCell ("H18",false);
+}
+
+function ph() {
+  // 1 = row 1, 14 = column 14 = N
+  goToSheet("Drink Assignment", 1, 1);
+}
+
+function goToSheet(sheetName, row, col) {
+  var sheet = SpreadsheetApp.getActive().getSheetByName(sheetName);
+  SpreadsheetApp.setActiveSheet(sheet);
+  var range = sheet.getRange(row, col)
+  SpreadsheetApp.setActiveRange(range);
+}
+
+function bb() {
+  // 1 = row 1, 14 = column 14 = N
+  goToSheet("Bingo", 1, 1);
+}
+
+function goToSheet(sheetName, row, col) {
+  var sheet = SpreadsheetApp.getActive().getSheetByName(sheetName);
+  SpreadsheetApp.setActiveSheet(sheet);
+  var range = sheet.getRange(row, col)
+  SpreadsheetApp.setActiveRange(range);
+}
