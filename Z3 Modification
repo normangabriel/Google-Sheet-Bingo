@@ -8,7 +8,7 @@ function modifyCell(cellname,increase){
 }
 
 function increaseLine2() {
-  modifyCell("Z3",true);
+  modifyCell("AD3",true);
 }
 
 
