@@ -1,0 +1,37 @@
+function modifyCell(cellname,increase){
+  var range = SpreadsheetApp.getActiveSheet().getRange(cellname);
+  var toAdd = -1;
+  if (increase) {
+    toAdd = 1;
+  }
+  range.setValue(range.getValue() + toAdd);
+}
+
+function increaseLine2() {
+  modifyCell("Z3",true);
+}
+
+
+function ph() {
+  // 1 = row 1, 14 = column 14 = N
+  goToSheet("Drink Assignment", 1, 1);
+}
+
+function goToSheet(sheetName, row, col) {
+  var sheet = SpreadsheetApp.getActive().getSheetByName(sheetName);
+  SpreadsheetApp.setActiveSheet(sheet);
+  var range = sheet.getRange(row, col)
+  SpreadsheetApp.setActiveRange(range);
+}
+
+function bb() {
+  // 1 = row 1, 14 = column 14 = N
+  goToSheet("Bingo", 1, 1);
+}
+
+function goToSheet(sheetName, row, col) {
+  var sheet = SpreadsheetApp.getActive().getSheetByName(sheetName);
+  SpreadsheetApp.setActiveSheet(sheet);
+  var range = sheet.getRange(row, col)
+  SpreadsheetApp.setActiveRange(range);
+}
